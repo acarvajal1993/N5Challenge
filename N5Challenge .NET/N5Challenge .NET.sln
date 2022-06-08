@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N5Challenge.API", "N5Challenge.API\N5Challenge.API.csproj", "{176CF033-3338-4EE4-9F15-6C7452787B11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N5Challenge.Infrastructure", "N5Challenge.Infrastructure\N5Challenge.Infrastructure.csproj", "{5F1E8958-C351-4CDE-82E3-E3DADA366127}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N5Challenge.Core", "N5Challenge.Core\N5Challenge.Core.csproj", "{0E2B4C3C-0317-47F1-AB49-97DDBD289403}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N5Challenge.Test", "N5Challenge.Test\N5Challenge.Test.csproj", "{1F824686-05CD-4381-9E0A-E9247B4B9A56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A64B5333-FD9D-49B5-856A-ACC8E7BAE9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N5Challenge.Lib", "N5Challenge.Result\N5Challenge.Lib.csproj", "{B407B4E0-F946-4F14-B04E-E343ED046E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{176CF033-3338-4EE4-9F15-6C7452787B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176CF033-3338-4EE4-9F15-6C7452787B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176CF033-3338-4EE4-9F15-6C7452787B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176CF033-3338-4EE4-9F15-6C7452787B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1E8958-C351-4CDE-82E3-E3DADA366127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1E8958-C351-4CDE-82E3-E3DADA366127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1E8958-C351-4CDE-82E3-E3DADA366127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1E8958-C351-4CDE-82E3-E3DADA366127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2B4C3C-0317-47F1-AB49-97DDBD289403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2B4C3C-0317-47F1-AB49-97DDBD289403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2B4C3C-0317-47F1-AB49-97DDBD289403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2B4C3C-0317-47F1-AB49-97DDBD289403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F824686-05CD-4381-9E0A-E9247B4B9A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F824686-05CD-4381-9E0A-E9247B4B9A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F824686-05CD-4381-9E0A-E9247B4B9A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F824686-05CD-4381-9E0A-E9247B4B9A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B407B4E0-F946-4F14-B04E-E343ED046E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B407B4E0-F946-4F14-B04E-E343ED046E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B407B4E0-F946-4F14-B04E-E343ED046E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B407B4E0-F946-4F14-B04E-E343ED046E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B407B4E0-F946-4F14-B04E-E343ED046E23} = {A64B5333-FD9D-49B5-856A-ACC8E7BAE9B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A49FC7B-D3E8-4C57-8127-8F22C6B1744E}
+	EndGlobalSection
+EndGlobal
